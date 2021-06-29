@@ -1,0 +1,72 @@
+.features p {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-transform: uppercase;
+}
+
+.feature-furniture {
+    padding-top: 65px;
+    background-image: url("https://htmlacademy.ru/assets/courses/297/img/furniture.svg");
+}
+
+.feature-lighting {
+    padding-top: 65px;
+    background-image: url("https://htmlacademy.ru/assets/courses/297/img/lighting.svg");
+}
+
+.feature-accessories {
+    padding-top: 65px;
+    background-image: url("https://htmlacademy.ru/assets/courses/297/img/accessories.svg");
+}
+
+body {
+    font-family: sans-serif;  /* шрифт без засечек */
+    margin: 0;  /* обнуляю внешние отступы */
+    padding: 0;  /* обнуляю внутренние отступы */
+    color: #444444;  /* выставляю общий цвет текста */
+    font-size: 18px;  /* общий размер текста - 18 пикселей */
+}
+
+.container {
+    max-width: 550px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    height: 30vh;
+    background: #847462;
+    padding: 30px;
+    margin-bottom: 70px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.site-header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.features, /* стилизую секции с фишками и плюсами */
+.advantages {
+    width: 70%;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.site-footer {
+    background: #847462;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

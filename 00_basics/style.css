@@ -1,0 +1,29 @@
+/*
+selector {
+    property: value;
+}
+*/
+h1 {
+    font-size: 38px; /* размер шрифта */
+    color: #338080; /* цвет текста  */
+    text-align: center;  /* расположение посередине */
+}
+
+body {
+    font-family: sans-serif; /* семейство без засечек */
+    font-size: 18px;
+    background: #ffe7d0; /* цвет фона сайта */
+}
+
+ul, ol {
+    font-size: 24px;
+    color: #454545;
+    font-weight: bold; /* полужирное начертание */
+}
+
+.done { /* стилизуем класс done */
+    color: green;
+    text-decoration: line-through;
+    /* зачеркнутый текст */
+}
+
