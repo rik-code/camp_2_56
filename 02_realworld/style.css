@@ -27,7 +27,7 @@ body {
     font-family: sans-serif;  /* шрифт без засечек */
     margin: 0;  /* обнуляю внешние отступы */
     padding: 0;  /* обнуляю внутренние отступы */
-    color: #444444;  /* выставляю общий цвет текста */
+    color: #504848;  /* выставляю общий цвет текста */
     font-size: 18px;  /* общий размер текста - 18 пикселей */
 }
 
@@ -40,10 +40,10 @@ body {
 
 .site-header {
     height: 30vh;
-    background: #847462;
+    background: #d59a36;
     padding: 30px;
     margin-bottom: 70px;
-    color: white;
+    color: #000000;
     text-align: center;
 }
 
@@ -65,8 +65,8 @@ h1 {
 }
 
 .site-footer {
-    background: #847462;
-    color: white;
+    background: #d59a36;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
